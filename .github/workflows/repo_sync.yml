@@ -6,8 +6,6 @@ on:
   workflow_dispatch:
   watch:
     types: started
-  push:
-    branches: [ main ]
   repository_dispatch:
     types: sync-Water008-scripts
 jobs:
