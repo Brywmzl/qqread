@@ -7,7 +7,7 @@ on:
   watch:
     types: started
   push:
-    branches: [ master ]
+    branches: [ main ]
   repository_dispatch:
     types: sync-Water008-scripts
 jobs:
